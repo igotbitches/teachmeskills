@@ -14,3 +14,12 @@ while x > 1:
     x -= 1
 
 print(fact)
+
+
+#досчитать до 1000
+i = 0
+result = 0
+    if i >result:
+        break
+    print(i)
+    i += 1
