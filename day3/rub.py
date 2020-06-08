@@ -1,5 +1,4 @@
 data = str(input('Количество рублей: '))
-dlist = data.split('.')
 
 total = int(float(data) * 100)
 rub = total // 100
