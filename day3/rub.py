@@ -7,25 +7,30 @@ cent = total % 100
 rub_word = ''
 cent_word = ''
 
-if rub == 1 or rub % 10 == 1:
+if rub == 1 or rub % 10 == 1 and rub%100 != 11:
     rub_word = 'рубль'
-    if rub%10 == 2 or rub%10 == 3 or rub%10 == 4:
-        rub_word = 'рубля'
-        if rub == 12 or rub == 13 or rub == 14:
-            rub_word = 'рублей'
+elif rub%100 == 11 or rub%100 == 12 or rub%100 == 13 or rub%100 == 14:
+    rub_word = 'рублей'
+elif rub%10 == 2 or rub%10 == 3 or rub%10 == 4:
+    rub_word = 'рубля'
 else:
     rub_word = 'рублей'
 
-if cent == 1 or cent % 10 == 1:
+if cent == 1 or cent % 10 == 1 and cent != 11:
     cent_word = 'копейка'
-    if cent%10 == 2 or cent%10 == 3 or cent%10 == 4:
-        cent_word = 'копейки'
-        if cent == 12 or cent == 13 or cent == 14:
-            cent_word = 'копейки'
+elif cent == 11 or cent == 12 or cent == 13 or cent == 14:
+    cent_word = 'копеек'
+elif cent%10 == 2 or cent%10 == 3 or cent%10 == 4:
+    cent_word = 'копейки'
 else:
     cent_word = 'копеек'
 
-print(f'{rub} {rub_word}, {cent} {cent_word}')
+if rub == 0:
+    print(f'{cent} {cent_word}')
+elif cent == 0:
+    print(f'{rub} {rub_word}')
+else:
+    print(f'{rub} {rub_word}, {cent} {cent_word}')
 
 
 
