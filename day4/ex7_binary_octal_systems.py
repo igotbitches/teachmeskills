@@ -14,13 +14,13 @@ def system_2_and_8(number, system):
         while number != 0:
             number_2.insert(0, number % 2)
             number //= 2
-        return number_2
+        return ' '.join(str(x) for x in number_2)
     elif system == 8:
         number_8 = []
         while number != 0:
             number_8.insert(0, number % 8)
             number //= 8
-        return number_8
+        return ' '.join(str(x) for x in number_8)
 
 number = int(input("Enter number: "))
 system = int(input("Enter system: "))
