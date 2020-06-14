@@ -33,7 +33,10 @@
 где i это порядковый номер строки в списке. Использовать генератор списков. \
 [open](https://github.com/igotbitches/teachmeskills/tree/master/day7/i_string.py)
 
-## 9. Файл __:
+## 9. Файл _dict_key_x2.py_:
+Создать lambda функцию, которая принимает на вход неопределенное количество именных аргументов 
+и выводит словарь с ключами удвоенной длины. {‘abc’: 5} -> {‘abcabc’: 5}. \
+[open](https://github.com/igotbitches/teachmeskills/tree/master/day7/dict_key_x2.py)
 
 ## 10. Файл __:
 
