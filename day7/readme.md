@@ -38,6 +38,11 @@
 и выводит словарь с ключами удвоенной длины. {‘abc’: 5} -> {‘abcabc’: 5}. \
 [open](https://github.com/igotbitches/teachmeskills/tree/master/day7/dict_key_x2.py)
 
-## 10. Файл __:
+## 10. Файл _decorator_list.py_:
+Создать декоратор для функции, которая принимает список чисел. 
+Декоратор должен производить предварительную проверку данных - удалять все четные элементы из списка. \
+[open](https://github.com/igotbitches/teachmeskills/tree/master/day7/decorator_list.py)
 
-## 11. Файл __:
+## 11. Файл _universal_decorator.py_:
+Создать универсальный декоратор, который меняет порядок аргументов в функции на противоположный. \
+[open](https://github.com/igotbitches/teachmeskills/tree/master/day7/universal_decorator.py)
