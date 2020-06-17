@@ -6,4 +6,9 @@
 Возрастные группы: 1-12, 13-18, 19-25, 26-40, 40+. \
 [open](https://github.com/igotbitches/teachmeskills/tree/master/day8/1_homework.py)
 
+## 2. Файл _2_homework.py_:
+Создать csv файл с данными о ежедневной погоде. 
+Структура:  Дата, Место, Градусы, Скорость ветра. 
+Найти среднюю погоду(скорость ветра и градусы) для Минск за последние 7 дней. \
+[open](https://github.com/igotbitches/teachmeskills/tree/master/day8/2_homework.py)
 
