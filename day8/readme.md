@@ -12,3 +12,6 @@
 Найти среднюю погоду(скорость ветра и градусы) для Минск за последние 7 дней. \
 [open](https://github.com/igotbitches/teachmeskills/tree/master/day8/2_homework.py)
 
+## 3. Файл _3_homework.py_:
+Дан файл, содержащий различные даты. Каждая дата - это число, месяц и год. Найти самую раннюю дату. \
+[open](https://github.com/igotbitches/teachmeskills/tree/master/day8/3_homework.py)
