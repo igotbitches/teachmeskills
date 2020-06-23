@@ -8,15 +8,13 @@ class Car:
 
     def more_speed(self, speed=5):
         self._speed += speed
-        return f"Увеличиваем скорость"
 
     def less_speed(self, speed=5):
         self._speed -= speed
-        return f'Уменьшаем скорость'
 
     def stop_speed(self, speed=0):
         self._speed = speed
-        return f'Стоп'
+
 
     def yor_speed_now(self):
         return f"Ваша скорость сейчас {self._speed} км/ч"
