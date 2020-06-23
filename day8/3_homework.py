@@ -9,6 +9,13 @@ with open('date_file.csv', 'r', encoding='utf-8') as data:
         date.append(datetime.strptime(f"{i[0]}-{i[1]}-{i[2]}", "%d-%m-%Y"))
     print(min(date).date())
 
+#вариант через lambda
+# date = min(
+#     list(map(lambda x: datetime.strptime(f"{x[0]}-{x[1]}-{x[2]}", "%d-%m-%Y"), list(reader)))
+# ).date()
+# print(date)
+
+# долгий и не совсем понятный для других вариант
 # def min_date(data):
 #
 #     def min_year(data):
