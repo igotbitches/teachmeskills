@@ -96,12 +96,12 @@ class MyTime:
 # print(m)
 
 """нормальное отображение времени"""
-# m2 = MyTime(21,123,113)
-# print(m2)
+m2 = MyTime(21,123,113)
+print(m2)
 
 """магические методы сравнения, сложения, вычитания, умножения"""
-time = MyTime(2,14,34)
-time2 = MyTime(1,14,15)
+# time = MyTime(2,14,34)
+# time2 = MyTime(1,14,15)
 # print(time == time2)
 # print(time != time2)
 # print(time < time2)
@@ -111,6 +111,6 @@ time2 = MyTime(1,14,15)
 
 # time.__sub__(time2)
 # time.__add__(time2)
-time.__mul__(time2)
-
-print(time)
+# time.__mul__(time2)
+#
+# print(time)
