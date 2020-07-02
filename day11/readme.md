@@ -12,4 +12,5 @@ P.S.S. При выводе магических методов сложения,
 Перегрузить конструктор на обработку входных параметров вида: одна строка, 
 три числа, другой объект класса MyTime, и отсутствие входных параметров. 
 Реализовать нормальное отображение времени(12:65:83 - 13:06:23)
-Примечание: http://sheregeda.github.io/blog/2015/01/18/maghichieskiie-mietody-python/
+Примечание: http://sheregeda.github.io/blog/2015/01/18/maghichieskiie-mietody-python/ \
+[open](https://github.com/igotbitches/teachmeskills/tree/master/day11/1_homework.py)
