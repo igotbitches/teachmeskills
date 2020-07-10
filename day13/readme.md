@@ -4,4 +4,4 @@
 для продуктов. Создать пользовательский интерфейс. \
 [создаем таблицу в БД](https://github.com/igotbitches/teachmeskills/tree/master/day13/homework_create_table.py) \
 [CRUD](https://github.com/igotbitches/teachmeskills/tree/master/day13/homework_sql.py) \
-[requeirments](https://github.com/igotbitches/teachmeskills/tree/master/day13/requeirments.txt) \
+[requeirments](https://github.com/igotbitches/teachmeskills/tree/master/day13/requeirments.txt) 
